@@ -5,11 +5,19 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  // templateUrl: './app.component.html',
   template: `
-    <h1>Hello world!</h1>
+    <main>
+      <header class="brand-name">
+        <img
+          class="brand-logo"
+          src="/public/logo.svg"
+          alt="logo"
+          aria-hidden="true"
+        />
+      </header>
+    </main>
   `,
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'homes';
