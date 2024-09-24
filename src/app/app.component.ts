@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
           aria-hidden="true"
         />
       </header>
-      <section class="content"><app-home></app-home></section>
+      <section class="content"><router-outlet></router-outlet></section>
     </main>
   `,
   styleUrl: './app.component.scss',
