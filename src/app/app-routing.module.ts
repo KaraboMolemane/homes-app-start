@@ -6,5 +6,4 @@ import { DetailsComponent } from './details/details.component';
 export const routes: Routes = [
   { path: '', component: HomeComponent, title: 'Home Page' },
   { path: 'details/:id', component: DetailsComponent, title: 'Details Page' },
-  { path: 'housing-location', component: HousingLocationComponent },
 ];
