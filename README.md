@@ -68,8 +68,8 @@
 ### Built With
 
 - [Angular](https://angular.io/)
-- [json-server]([Angular](https://www.npmjs.com/package/json-server))
-- [TypeScript]([Angular](https://www.typescriptlang.org/))
+- [json-server](https://www.npmjs.com/package/json-server)
+- [TypeScript](https://www.typescriptlang.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
